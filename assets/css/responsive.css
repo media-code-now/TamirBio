@@ -237,10 +237,10 @@
         position: absolute;
         width: 70px;
         height: 70px;
-        background-color: #212121;
+        background-color: #fff;
         bottom: 35px;
         border-radius: 50%;
-        border: 6px solid #111;
+        border: 6px solid #252e4d;
         transition: 0.5s;
         left: 0;
         right: 0;
@@ -254,7 +254,7 @@
         left: -22px;
         background-color: transparent;
         border-top-right-radius: 20px;
-        box-shadow: 1px -10px 0 0 #111;
+        box-shadow: 1px -10px 0 0 #252e4d;
     }
     li.active::after {
         content: "";
@@ -265,7 +265,7 @@
         height: 20px;
         background-color: transparent;
         border-top-left-radius: 20px;
-        box-shadow: -1px -10px 0 0 #111;
+        box-shadow: -1px -10px 0 0 #252e4d;
     }
     .homecolor-box {
         left: -141%;
